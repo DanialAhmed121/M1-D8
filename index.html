@@ -74,10 +74,15 @@
                 - Use the document.createElement to create the new List Item
                 - Append the child to the UL
             */
+            const addToTheSecond = function (content) {
+        const ul = document.querySelectorAll("ul")[1];
+        ul.innerHTML += `<li>${content}</li>`;
+            }
 
       /* EXERCISE 6: 
                 Create a method "removeLast" which removes the last item from the task list
             */
+      
 
       /* EXERCISE 7: 
                 Create a method "removeFirst" which removes the first item from the task list
